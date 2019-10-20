@@ -19,7 +19,7 @@
 //class's constructor
 ExG4DetectorConstruction::ExG4DetectorConstruction()
 : G4VUserDetectorConstruction(),
-  fScoringVolume(0)
+  	fScoringVolume(0)
 { }
 
 //class's destructor
