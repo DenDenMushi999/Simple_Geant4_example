@@ -16,7 +16,7 @@ int main(int argc,char** argv)
     G4RunManager* runManager = new G4RunManager;
     
     // set mandatory initialization classes
-    runManager->SetUserInitialization(new ExG4DcetectorConstruction01);
+    runManager->SetUserInitialization(new ExG4DetectorConstruction01);
     
     // Physics list
     G4VModularPhysicsList* physicsList = new QBBC;
