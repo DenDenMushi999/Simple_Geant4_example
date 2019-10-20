@@ -6,18 +6,27 @@
 #include "ExG4DetectorConstruction01.hh"
 #include "ExG4PhysicsList00.hh"
 #include "ExG4PrimaryGeneratorAction01.hh"
-int main()
+int main(int argc,char** argv)
 {
+    
+
+    // Choose the Random engine
+    G4Random::setTheEngine(new CLHEP::RanecuEngine);
     // construct the default run manager
     G4RunManager* runManager = new G4RunManager;
     
     // set mandatory initialization classes
-    runManager->SetUserInitialization(new ExG4DetectorConstruction01);
-    runManager->SetUserInitialization(new ExG4PhysicsList00);
+    runManager->SetUserInitialization(new ExG4DcetectorConstruction01);
+    
+    // Physics list
+    G4VModularPhysicsList* physicsList = new QBBC;
+    physicsList->SetVerboseLevel(1);
+    runManager->SetUserInitialization(physicsList);
     
     // set mandatory user action class
     runManager->SetUserAction(new ExG4PrimaryGeneratorAction01);
     
+
     // initialize G4 kernel
     runManager->Initialize();
     
