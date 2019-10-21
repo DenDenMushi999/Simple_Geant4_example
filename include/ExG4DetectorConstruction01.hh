@@ -9,7 +9,7 @@
 class G4VPhysicalVolume;
 class G4LogicalVolume;
 
-ExG4DetectorConstruction01 : public G4VUserDetectorConstruction
+class ExG4DetectorConstruction01 : public G4VUserDetectorConstruction
 {
 public:
 	ExG4DetectorConstruction01();
