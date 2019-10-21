@@ -7,6 +7,8 @@
 #include "G4ParticleGun.hh"
 #include "G4ThreeVector.hh"
 #include "globals.hh"
+#include "SystemOfUnits.h"
+
 class G4ParticleGun;
 class G4Event;
 class G4Box;
