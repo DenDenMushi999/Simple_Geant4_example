@@ -33,7 +33,7 @@ int main(int argc,char** argv)
     runManager->SetUserInitialization(physicsList);
     
     // set mandatory user action class
-    runManager->SetUserAction(new ExG4PrimaryGeneratorAction01());
+    runManager->SetUserInitialization(new ExG4ActionInitialization01());
     
 
     // initialize G4 kernel
