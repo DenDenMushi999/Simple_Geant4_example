@@ -4,7 +4,7 @@
 #include "G4UserEventAction.hh"
 #include "globals.hh"
 
-class ExG4RunAction;
+class ExG4RunAction01;
 
 /// Event action class
 ///
@@ -21,7 +21,7 @@ class ExG4EventAction01 : public G4UserEventAction
     void AddEdep(G4double edep) { fEdep += edep; }
 
   private:
-    ExG4RunAction01* fRunAction;
+    ExG4RunActions01* fRunAction;
     G4double     fEdep;
 };
 

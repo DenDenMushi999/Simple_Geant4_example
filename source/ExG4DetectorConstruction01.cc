@@ -17,17 +17,17 @@
 
 
 //class's constructor
-ExG4DetectorConstruction::ExG4DetectorConstruction()
+ExG4DetectorConstruction01::ExG4DetectorConstruction01()
 	:G4VUserDetectorConstruction(),
   	fScoringVolume(0)
 { }
 
 //class's destructor
-ExG4DetectorConstruction::~ExG4DetectorConstruction()
+ExG4DetectorConstruction01::~ExG4DetectorConstruction01()
 {}
 
 //method Construct()
-G4VPhysicalVolume* ExG4DetectorConstruction::Construct()
+G4VPhysicalVolume* ExG4DetectorConstruction01::Construct()
 {
 
 	// Get nist material manager

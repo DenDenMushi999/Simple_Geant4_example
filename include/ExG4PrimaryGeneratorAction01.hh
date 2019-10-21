@@ -2,11 +2,16 @@
 
 #ifndef ExG4PrimaryGeneratorAction01_h
 #define ExG4PrimaryGeneratorAction01_h 1
+
 #include "G4VUserPrimaryGeneratorAction.hh"
+#include "G4ParticleGun.hh"
 #include "G4ThreeVector.hh"
 #include "globals.hh"
 class G4ParticleGun;
 class G4Event;
+class G4Box;
+
+
 class ExG4PrimaryGeneratorAction01 : public G4VUserPrimaryGeneratorAction
 {
 public:
@@ -21,4 +26,7 @@ public:
 private:
     // data members
     G4ParticleGun* fParticleGun; //pointer a to G4 service class
+    G4Box* fEnvelopeBox;
 };
+
+#endif
