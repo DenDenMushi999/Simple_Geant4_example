@@ -67,6 +67,6 @@ G4VPhysicalVolume* ExG4DetectorConstruction01::Construct()
 				   	   0,
 				   	   checkOverlaps);
 
-	return physWorld;
+	return physic_World;
 }
 
