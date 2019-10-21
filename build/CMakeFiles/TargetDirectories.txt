@@ -1,0 +1,7 @@
+/home/student/Documents/Davletshin/Simple_Geant4_example/build/CMakeFiles/install/strip.dir
+/home/student/Documents/Davletshin/Simple_Geant4_example/build/CMakeFiles/install/local.dir
+/home/student/Documents/Davletshin/Simple_Geant4_example/build/CMakeFiles/ExampleG41.dir
+/home/student/Documents/Davletshin/Simple_Geant4_example/build/CMakeFiles/install.dir
+/home/student/Documents/Davletshin/Simple_Geant4_example/build/CMakeFiles/list_install_components.dir
+/home/student/Documents/Davletshin/Simple_Geant4_example/build/CMakeFiles/edit_cache.dir
+/home/student/Documents/Davletshin/Simple_Geant4_example/build/CMakeFiles/rebuild_cache.dir
