@@ -3,7 +3,7 @@
 #ifndef ExG4DetectorConstruction01_h
 #define ExG4DetectorConstruction01_h 1
 
-#include "G4UserDetectorConstruction.hh"
+#include "G4VUserDetectorConstruction.hh"
 #include "globals.hh"
 
 class G4VPhysicalVolume;
