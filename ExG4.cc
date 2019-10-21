@@ -4,7 +4,7 @@
     #include "G4VisExecutive.hh"
 #endif
 #include "ExG4DetectorConstruction01.hh"
-#include "ExG4PhysicsList00.hh"
+#include "ExG4PhysicsList01.hh"
 #include "ExG4PrimaryGeneratorAction01.hh"
 int main(int argc,char** argv)
 {
