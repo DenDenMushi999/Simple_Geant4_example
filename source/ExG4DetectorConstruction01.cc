@@ -18,7 +18,7 @@
 
 //class's constructor
 ExG4DetectorConstruction::ExG4DetectorConstruction()
-: G4VUserDetectorConstruction(),
+	:G4VUserDetectorConstruction(),
   	fScoringVolume(0)
 { }
 
