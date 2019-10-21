@@ -1,7 +1,7 @@
 
 
 
-#include "ExG4DetectorConstruction.hh"
+#include "ExG4DetectorConstruction01.hh"
 
 #include "G4RunManager.hh"
 #include "G4NistManager.hh"
