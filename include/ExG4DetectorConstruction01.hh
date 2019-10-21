@@ -21,6 +21,6 @@ public:
 
 protected:
     G4LogicalVolume*  fScoringVolume;
-}
+};
 
 #endif
