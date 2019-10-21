@@ -21,7 +21,7 @@ class ExG4EventAction01 : public G4UserEventAction
     void AddEdep(G4double edep) { fEdep += edep; }
 
   private:
-    ExG4RunActions01* fRunAction;
+    ExG4RunAction01* fRunAction;
     G4double     fEdep;
 };
 
