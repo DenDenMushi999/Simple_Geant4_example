@@ -1,10 +1,20 @@
-#include "G4RunManager.hh"
-#include "G4UImanager.hh"
-#ifdef G4UI_USE
-    #include "G4VisExecutive.hh"
-#endif
 #include "ExG4DetectorConstruction01.hh"
-#include "ExG4PrimaryGeneratorAction01.hh"
+#include "EcG4ActionInitialization01.hh"
+
+#ifdef G4MULTITHREADED
+    #include "G4MTRunManager.hh"
+#else
+    #include "G4RunManager.hh"
+#endif
+
+#include "G4UImanager.hh"
+#include "QBBC.hh"
+
+#include "G4VisExecutive.hh"
+#include "G4UIExecutive.hh"
+
+#include "Randomize.hh"
+
 int main(int argc,char** argv)
 {
     
