@@ -1,5 +1,5 @@
 #include "ExG4DetectorConstruction01.hh"
-#include "EcG4ActionInitialization01.hh"
+#include "ExG4ActionInitialization01.hh"
 
 #ifdef G4MULTITHREADED
     #include "G4MTRunManager.hh"
