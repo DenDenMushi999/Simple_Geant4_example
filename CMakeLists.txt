@@ -23,21 +23,21 @@ add_executable(ExampleG41 ExG4.cc ${sources} ${headers})
 target_link_libraries(ExampleG41 ${Geant4_LIBRARIES})
 
 # (6)
-set(EXAMPLEB1_SCRIPTS
-exampleB1.in
-exampleB1.out
-init_vis.mac
-run1.mac
-run2.mac
-vis.mac
-)
-foreach(_script ${EXAMPLEB1_SCRIPTS})
-configure_file(
-${PROJECT_SOURCE_DIR}/${_script}
-${PROJECT_BINARY_DIR}/${_script}
-COPYONLY
-)
-endforeach()
+#set(EXAMPLEB1_SCRIPTS
+#exampleB1.in
+#exampleB1.out
+#init_vis.mac
+#run1.mac
+#run2.mac
+#vis.mac
+#)
+#foreach(_script ${EXAMPLEB1_SCRIPTS})
+#configure_file(
+#${PROJECT_SOURCE_DIR}/${_script}
+#${PROJECT_BINARY_DIR}/${_script}
+#COPYONLY
+#)
+#endforeach()
 
 # (7)
 install(TARGETS ExampleG41 DESTINATION bin)
