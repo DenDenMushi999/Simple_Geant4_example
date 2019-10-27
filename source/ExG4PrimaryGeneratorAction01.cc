@@ -34,7 +34,9 @@ ExG4PrimaryGeneratorAction01::ExG4PrimaryGeneratorAction01(
     fParticleGun->SetParticlePosition(position);
     fParticleGun->SetParticleMomentumDirection(momentumDirection);
 }
+
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
 ExG4PrimaryGeneratorAction01::~ExG4PrimaryGeneratorAction01()
 {
     delete fParticleGun;
