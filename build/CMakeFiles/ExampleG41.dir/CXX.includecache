@@ -31,12 +31,20 @@ G4ThreeVector.hh
 ../include/G4ThreeVector.hh
 globals.hh
 ../include/globals.hh
+G4SystemOfUnits.hh
+../include/G4SystemOfUnits.hh
 
 ../include/ExG4RunAction01.hh
 G4UserRunAction.hh
 ../include/G4UserRunAction.hh
 G4Accumulable.hh
 ../include/G4Accumulable.hh
+globals.hh
+../include/globals.hh
+
+../include/ExG4SteppingAction01.hh
+G4UserSteppingAction.hh
+../include/G4UserSteppingAction.hh
 globals.hh
 ../include/globals.hh
 
@@ -3239,8 +3247,8 @@ ExG4SteppingAction01.hh
 /home/student/Documents/Davletshin/Simple_Geant4_example/source/ExG4SteppingAction01.hh
 
 /home/student/Documents/Davletshin/Simple_Geant4_example/source/ExG4DetectorConstruction01.cc
-ExG4DetectorConstruction.hh
-/home/student/Documents/Davletshin/Simple_Geant4_example/source/ExG4DetectorConstruction.hh
+ExG4DetectorConstruction01.hh
+/home/student/Documents/Davletshin/Simple_Geant4_example/source/ExG4DetectorConstruction01.hh
 G4RunManager.hh
 /home/student/Documents/Davletshin/Simple_Geant4_example/source/G4RunManager.hh
 G4NistManager.hh
@@ -3297,8 +3305,8 @@ G4Event.hh
 /home/student/Documents/Davletshin/Simple_Geant4_example/source/G4Event.hh
 
 /home/student/Documents/Davletshin/Simple_Geant4_example/source/ExG4RunAction01.cc
-RunAction.hh
-/home/student/Documents/Davletshin/Simple_Geant4_example/source/RunAction.hh
+ExG4RunAction01.hh
+/home/student/Documents/Davletshin/Simple_Geant4_example/source/ExG4RunAction01.hh
 ExG4PrimaryGeneratorAction01.hh
 /home/student/Documents/Davletshin/Simple_Geant4_example/source/ExG4PrimaryGeneratorAction01.hh
 ExG4DetectorConstruction01.hh

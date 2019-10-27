@@ -367,6 +367,7 @@ CMakeFiles/ExampleG41.dir/source/ExG4ActionInitialization01.cc.o
  ../include/ExG4EventAction01.hh
  ../include/ExG4PrimaryGeneratorAction01.hh
  ../include/ExG4RunAction01.hh
+ ../include/ExG4SteppingAction01.hh
  /ausr/local/CLHEP/include/CLHEP/Units/PhysicalConstants.h
  /ausr/local/CLHEP/include/CLHEP/Units/SystemOfUnits.h
  /ausr/local/CLHEP/include/CLHEP/Units/defs.h
@@ -389,11 +390,13 @@ CMakeFiles/ExampleG41.dir/source/ExG4ActionInitialization01.cc.o
  /ausr/local/geant4.10.03.p03/include/Geant4/G4PrimaryVertex.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4String.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4String.icc
+ /ausr/local/geant4.10.03.p03/include/Geant4/G4SystemOfUnits.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4Threading.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4ThreeVector.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4Types.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4UserEventAction.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4UserRunAction.hh
+ /ausr/local/geant4.10.03.p03/include/Geant4/G4UserSteppingAction.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4VAccumulable.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4VAccumulable.icc
  /ausr/local/geant4.10.03.p03/include/Geant4/G4VPrimaryGenerator.hh
@@ -407,6 +410,7 @@ CMakeFiles/ExampleG41.dir/source/ExG4ActionInitialization01.cc.o
  /ausr/local/geant4.10.03.p03/include/Geant4/windefs.hh
  /home/student/Documents/Davletshin/Simple_Geant4_example/source/ExG4ActionInitialization01.cc
 CMakeFiles/ExampleG41.dir/source/ExG4DetectorConstruction01.cc.o
+ ../include/ExG4DetectorConstruction01.hh
  /ausr/local/CLHEP/include/CLHEP/Geometry/BasicVector3D.h
  /ausr/local/CLHEP/include/CLHEP/Geometry/Normal3D.h
  /ausr/local/CLHEP/include/CLHEP/Geometry/Point3D.h
@@ -673,6 +677,7 @@ CMakeFiles/ExampleG41.dir/source/ExG4DetectorConstruction01.cc.o
  /ausr/local/geant4.10.03.p03/include/Geant4/G4VTouchable.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4VTouchable.icc
  /ausr/local/geant4.10.03.p03/include/Geant4/G4VTrajectory.hh
+ /ausr/local/geant4.10.03.p03/include/Geant4/G4VUserDetectorConstruction.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4VUserEventInformation.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4VUserTrackInformation.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4VVolumeMaterialScanner.hh
@@ -1246,6 +1251,7 @@ CMakeFiles/ExampleG41.dir/source/ExG4PrimaryGeneratorAction01.cc.o
 CMakeFiles/ExampleG41.dir/source/ExG4RunAction01.cc.o
  ../include/ExG4DetectorConstruction01.hh
  ../include/ExG4PrimaryGeneratorAction01.hh
+ ../include/ExG4RunAction01.hh
  /ausr/local/CLHEP/include/CLHEP/Geometry/BasicVector3D.h
  /ausr/local/CLHEP/include/CLHEP/Geometry/Normal3D.h
  /ausr/local/CLHEP/include/CLHEP/Geometry/Point3D.h
@@ -1480,6 +1486,7 @@ CMakeFiles/ExampleG41.dir/source/ExG4RunAction01.cc.o
  /ausr/local/geant4.10.03.p03/include/Geant4/G4UItokenNum.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4UnitsTable.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4UnitsTable.icc
+ /ausr/local/geant4.10.03.p03/include/Geant4/G4UserRunAction.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4UserStackingAction.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4UserSteppingAction.hh
  /ausr/local/geant4.10.03.p03/include/Geant4/G4UserTrackingAction.hh
@@ -1526,6 +1533,7 @@ CMakeFiles/ExampleG41.dir/source/ExG4RunAction01.cc.o
 CMakeFiles/ExampleG41.dir/source/ExG4SteppingAction01.cc.o
  ../include/ExG4DetectorConstruction01.hh
  ../include/ExG4EventAction01.hh
+ ../include/ExG4SteppingAction01.hh
  /ausr/local/CLHEP/include/CLHEP/Geometry/BasicVector3D.h
  /ausr/local/CLHEP/include/CLHEP/Geometry/Normal3D.h
  /ausr/local/CLHEP/include/CLHEP/Geometry/Point3D.h
